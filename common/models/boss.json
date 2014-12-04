@@ -1,0 +1,14 @@
+{
+  "name": "boss",
+  "base": "User",
+  "properties": {
+    "name": {
+        "type": "string",
+        "required": "true"
+    }
+  },
+  "validations": [],
+  "relations": {},    
+  "acls": [],
+  "methods": []
+}
