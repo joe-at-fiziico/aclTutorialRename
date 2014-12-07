@@ -15,6 +15,13 @@
       "foreignKey": "id_boss"
     }
   },    
-  "acls": [],
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "property": "__findById__chainStores"
+    }      
+  ],
   "methods": []
 }

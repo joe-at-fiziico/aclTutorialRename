@@ -27,4 +27,8 @@ Q3. Try to access the relation model api 'GET /bosses/{id}/chainStores/{fk}'.
     Use mongodb viwer to get the value of 'id' and 'fk'.
     'fk' is the _id of chainStore.
 
+A3. In order to use the relation model api we need to explicit declare the acl.
+    Click on the link 'GET /bosses/{id}/chainStores/{fk}' on explorer and the url bar in browser can find the string 'bosses/prototype_findById_chainStores', use the string to define the acl.
+    Remember to restart loopback appilication apply the new setting of acl.
+
 Loopback ACL tutorial
