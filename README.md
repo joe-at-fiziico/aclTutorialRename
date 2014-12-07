@@ -22,4 +22,9 @@ A2. The access permission of the api GET /bosses/{id} is $owner so we need to lo
     Copy the value then paste to the text-input in right-top corner and click 'Set Access Token'.
     Try to access GET /bosses/{id} again!
 
+Q3. Try to access the relation model api 'GET /bosses/{id}/chainStores/{fk}'.
+    Remember to set access token.
+    Use mongodb viwer to get the value of 'id' and 'fk'.
+    'fk' is the _id of chainStore.
+
 Loopback ACL tutorial
