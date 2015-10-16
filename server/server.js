@@ -14,6 +14,7 @@ console.log('do some changes');
 // boot scripts mount components like REST API
 boot(app, __dirname);
 
+console.log('Do more changes');
 // -- Mount static files here--
 // All static middleware should be registered at the end, as all requests
 // passing the static middleware are hitting the file system
