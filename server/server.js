@@ -21,7 +21,7 @@ console.log('Do more changes');
 // Example:
 //   var path = require('path');
 //   app.use(loopback.static(path.resolve(__dirname, '../client')));
-
+console.log('3');
 // Requests that get this far won't be handled
 // by any middleware. Convert them into a 404 error
 // that will be handled later down the chain.
