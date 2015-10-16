@@ -10,7 +10,7 @@ app.use(loopback.favicon());
 app.use(loopback.compress());
 
 // -- Add your pre-processing middleware here --
-
+console.log('do some changes');
 // boot scripts mount components like REST API
 boot(app, __dirname);
 
