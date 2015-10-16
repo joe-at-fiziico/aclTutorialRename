@@ -26,7 +26,7 @@ console.log('3');
 // by any middleware. Convert them into a 404 error
 // that will be handled later down the chain.
 app.use(loopback.urlNotFound());
-
+console.log 4
 // The ultimate error handler.
 app.use(loopback.errorHandler());
 
